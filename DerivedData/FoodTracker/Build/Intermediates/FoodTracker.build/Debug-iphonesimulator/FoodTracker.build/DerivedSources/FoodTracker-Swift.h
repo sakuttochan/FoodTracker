@@ -141,7 +141,6 @@ SWIFT_CLASS("_TtC11FoodTracker11AppDelegate")
 SWIFT_CLASS("_TtC11FoodTracker14ViewController")
 @interface ViewController : UIViewController
 - (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
