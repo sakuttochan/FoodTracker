@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C11FoodTracker14ViewController", ""]
 provides-dynamic-lookup:
-- "mealNameLabel"
-- "textFieldDidEndEditing"
-- "setDefaultLabelText"
+- "viewDidLoad"
 - "nameTextField"
 - "textFieldShouldReturn"
-- "viewDidLoad"
+- "setDefaultLabelText"
+- "mealNameLabel"
+- "textFieldDidEndEditing"
 depends-top-level:
+- "UITextFieldDelegate"
+- "UIViewController"
+- "AssignmentPrecedence"
+- "UITextField"
+- !private "BooleanLiteralType"
+- !private "StringLiteralType"
 - "ViewController"
 - "Bool"
 - "UILabel"
-- "AssignmentPrecedence"
-- !private "StringLiteralType"
-- "UITextField"
-- "UITextFieldDelegate"
-- "UIViewController"
-- !private "BooleanLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "delegate"]
 - !private ["Ps9AnyObject", "init"]
