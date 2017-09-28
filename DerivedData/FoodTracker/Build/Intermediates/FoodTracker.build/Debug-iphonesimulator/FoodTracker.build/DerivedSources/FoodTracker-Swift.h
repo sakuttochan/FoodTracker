@@ -137,11 +137,16 @@ SWIFT_CLASS("_TtC11FoodTracker11AppDelegate")
 @end
 
 @class NSCoder;
+@class UIButton;
 
 SWIFT_CLASS("_TtC11FoodTracker13RatingControl")
 @interface RatingControl : UIStackView
+@property (nonatomic) NSInteger rating;
+@property (nonatomic) CGSize starSize;
+@property (nonatomic) NSInteger starCount;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)ratingButtonTappedWithButton:(UIButton * _Nonnull)button;
 @end
 
 @class UITextField;
@@ -156,13 +161,13 @@ SWIFT_CLASS("_TtC11FoodTracker14ViewController")
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified nameTextField;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified mealNameLabel;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified photoImageView;
+@property (nonatomic, weak) IBOutlet RatingControl * _Null_unspecified ratingControl;
 - (void)viewDidLoad;
 - (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField;
 - (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
 - (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
 - (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
 - (IBAction)selectImageFromPhotoLibrary:(UITapGestureRecognizer * _Nonnull)sender;
-- (IBAction)setDefaultLabelText:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
