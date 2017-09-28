@@ -116,6 +116,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -135,18 +136,32 @@ SWIFT_CLASS("_TtC11FoodTracker11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITextField;
-@class UILabel;
-@class NSBundle;
 @class NSCoder;
 
+SWIFT_CLASS("_TtC11FoodTracker13RatingControl")
+@interface RatingControl : UIStackView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITextField;
+@class UIImagePickerController;
+@class UITapGestureRecognizer;
+@class UILabel;
+@class UIImageView;
+@class NSBundle;
+
 SWIFT_CLASS("_TtC11FoodTracker14ViewController")
-@interface ViewController : UIViewController <UITextFieldDelegate>
+@interface ViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate, UITextFieldDelegate>
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified nameTextField;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified mealNameLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified photoImageView;
 - (void)viewDidLoad;
 - (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField;
 - (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+- (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
+- (IBAction)selectImageFromPhotoLibrary:(UITapGestureRecognizer * _Nonnull)sender;
 - (IBAction)setDefaultLabelText:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

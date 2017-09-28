@@ -1,6 +1,7 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
 options: "66ae790bf06f8e64ac06dceda2b17944"
-build_time: [558433286, 563067000]
+build_time: [559897659, 830585000]
 inputs:
-  "/Users/kazukisakurada/Programming/iOS/FoodTracker/FoodTracker/ViewController.swift": [558421035, 0]
+  "/Users/kazukisakurada/Programming/iOS/FoodTracker/FoodTracker/ViewController.swift": [558500770, 0]
+  "/Users/kazukisakurada/Programming/iOS/FoodTracker/FoodTracker/RatingControl.swift": [9223372036854775807, 0]
   "/Users/kazukisakurada/Programming/iOS/FoodTracker/FoodTracker/AppDelegate.swift": [558084295, 0]
