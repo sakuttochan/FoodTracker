@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "c5bbb48e1a5853b773357abe8f9f5788"
+build_time: [560509224, 756380000]
+inputs:
+  "/Users/kazukisakurada/Programming/iOS/FoodTracker/FoodTrackerTests/FoodTrackerTests.swift": [560509166, 0]

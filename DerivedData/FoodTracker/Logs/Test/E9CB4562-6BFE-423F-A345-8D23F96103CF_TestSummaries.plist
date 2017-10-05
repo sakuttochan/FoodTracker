@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.2</string>
+	<key>RunDestination</key>
+	<dict>
+		<key>LocalComputer</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>100</integer>
+			<key>CPUCount</key>
+			<integer>1</integer>
+			<key>CPUKind</key>
+			<string>Intel Core i7</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>2600</integer>
+			<key>Identifier</key>
+			<string>4016792E-9C1D-5198-8D57-14FBC9DFF3DD</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>8</integer>
+			<key>ModelCode</key>
+			<string>MacBookPro13,3</string>
+			<key>ModelName</key>
+			<string>MacBook Pro</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macbookpro-15-retina-touchid</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64h</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.12.6</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.12.6 (16G29)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>4</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>macOS</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>16384</integer>
+		</dict>
+		<key>Name</key>
+		<string>iPhone 7</string>
+		<key>TargetArchitecture</key>
+		<string>x86_64</string>
+		<key>TargetDevice</key>
+		<dict>
+			<key>Identifier</key>
+			<string>45766723-B224-438D-A0D3-F2676BCA63F6</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>ModelCode</key>
+			<string>iPhone9,1</string>
+			<key>ModelName</key>
+			<string>iPhone 7</string>
+			<key>ModelUTI</key>
+			<string>com.apple.iphone-7-1</string>
+			<key>Name</key>
+			<string>iPhone 7</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.2</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.2 (14C89)</string>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.iphonesimulator</string>
+				<key>Name</key>
+				<string>iOS Simulator</string>
+			</dict>
+		</dict>
+		<key>TargetSDK</key>
+		<dict>
+			<key>Identifier</key>
+			<string>iphonesimulator10.2</string>
+			<key>IsInternal</key>
+			<false/>
+			<key>Name</key>
+			<string>Simulator - iOS 10.2</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.2</string>
+		</dict>
+	</dict>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>ProjectPath</key>
+			<string>FoodTracker.xcodeproj</string>
+			<key>TargetName</key>
+			<string>FoodTrackerTests</string>
+			<key>TestName</key>
+			<string>FoodTrackerTests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Duration</key>
+					<real>0.0088910460472106934</real>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Duration</key>
+							<real>0.0068870186805725098</real>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>Duration</key>
+									<real>0.0054140090942382812</real>
+									<key>Subtests</key>
+									<array>
+										<dict>
+											<key>Duration</key>
+											<real>0.0035699605941772461</real>
+											<key>FailureSummaries</key>
+											<array>
+												<dict>
+													<key>FileName</key>
+													<string>/Users/kazukisakurada/Programming/iOS/FoodTracker/FoodTrackerTests/FoodTrackerTests.swift</string>
+													<key>LineNumber</key>
+													<integer>44</integer>
+													<key>Message</key>
+													<string>XCTAssertNil failed: "FoodTracker.Meal" - </string>
+													<key>PerformanceFailure</key>
+													<false/>
+												</dict>
+											</array>
+											<key>TestIdentifier</key>
+											<string>FoodTrackerTests/testMealInitializationFails()</string>
+											<key>TestName</key>
+											<string>testMealInitializationFails()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Failure</string>
+											<key>TestSummaryGUID</key>
+											<string>2B1F13F2-14C3-4F12-AF0D-FAD6DB83CCB2</string>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>FoodTrackerTests</string>
+									<key>TestName</key>
+									<string>FoodTrackerTests</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummaryGroup</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>FoodTrackerTests.xctest</string>
+							<key>TestName</key>
+							<string>FoodTrackerTests.xctest</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>Selected tests</string>
+					<key>TestName</key>
+					<string>Selected tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

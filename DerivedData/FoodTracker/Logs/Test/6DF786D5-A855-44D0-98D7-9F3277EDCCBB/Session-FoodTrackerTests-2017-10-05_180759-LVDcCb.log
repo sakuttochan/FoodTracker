@@ -1,0 +1,258 @@
+18:07:59.707 Xcode[16458:1496966] Beginning test session FoodTrackerTests-DB358448-0EC6-434F-9F79-3FBD6D310A64 at 2017-10-05 18:07:59.707 with Xcode 8C1002 on target <DVTiPhoneSimulator: 0x7fb7a786f3d0> {
+		SimDevice: SimDevice : iPhone 7 (45766723-B224-438D-A0D3-F2676BCA63F6) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7 } runtime={ SimRuntime : 10.2 (14C89) - com.apple.CoreSimulator.SimRuntime.iOS-10-2 }
+} (10.2 (14C89))
+18:07:59.707 Xcode[16458:1496966] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+18:07:59.707 Xcode[16458:1496966] Initializing test infrastructure.
+18:07:59.707 Xcode[16458:1539276] 45766723-B224-438D-A0D3-F2676BCA63F6: Registered for sim device notification, got token 12
+18:07:59.707 Xcode[16458:1539276] 45766723-B224-438D-A0D3-F2676BCA63F6: Unregistering for sim device notification with token 12
+18:07:59.707 Xcode[16458:1539276] Sim iPhone 7 is booted (state = 3)
+18:07:59.707 Xcode[16458:1539276] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+18:07:59.708 Xcode[16458:1539276] Returning /private/tmp/com.apple.launchd.ErCwgeiUkT/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+18:07:59.708 Xcode[16458:1539276] Sim iPhone 7 has testmanagerd socket at /private/tmp/com.apple.launchd.ErCwgeiUkT/com.apple.testmanagerd.unix-domain.socket
+18:07:59.708 Xcode[16458:1539276] Connected socket 72 to testmanagerd for Sim iPhone 7
+18:07:59.708 Xcode[16458:1539276] Creating the test bundle connection.
+18:07:59.708 Xcode[16458:1539276] Listening for proxy connection request from the test bundle (all platforms)
+18:07:59.708 Xcode[16458:1539276] Resuming the connection.
+18:07:59.708 Xcode[16458:1539276] Test connection requires daemon assistance.
+18:07:59.722 Xcode[16458:1496966] Received Ready from iOSSimulator
+18:07:59.722 Xcode[16458:1496966] Sending notification: NSConcreteNotification 0x7fb7aae9e040 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "45766723-B224-438D-A0D3-F2676BCA63F6";
+}}
+18:07:59.725 Xcode[16458:1496966] Starting test session with ID DB358448-0EC6-434F-9F79-3FBD6D310A64
+18:07:59.725 Xcode[16458:1496966] Checking test manager availability..., will wait up to 120s
+18:08:02.860 Xcode[16458:1496966] Launch session started, setting a disallow-finish-token on the run operation.
+18:08:02.899 Xcode[16458:1496966] Received Ready from iOSSimulator
+18:08:02.899 Xcode[16458:1496966] Sending notification: NSConcreteNotification 0x7fb7a275cb30 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "45766723-B224-438D-A0D3-F2676BCA63F6";
+}}
+18:08:02.901 Xcode[16458:1496966] Adding console adaptor <IDEConsoleAdaptor: 0x7fb7a32758b0 'target'> for test session DB358448-0EC6-434F-9F79-3FBD6D310A64.
+18:08:02.904 Xcode[16458:1546082] 45766723-B224-438D-A0D3-F2676BCA63F6: Registered for sim device notification, got token 13
+18:08:02.904 Xcode[16458:1546081] 45766723-B224-438D-A0D3-F2676BCA63F6: Unregistering for sim device notification with token 13
+18:08:02.905 Xcode[16458:1545989] 45766723-B224-438D-A0D3-F2676BCA63F6: Installing app at path: /Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator/FoodTracker.app and options: {
+    CFBundleIdentifier = "Kazu.FoodTracker";
+}
+18:08:02.907 Xcode[16458:1496966] Received Ready from iOSSimulator
+18:08:02.907 Xcode[16458:1496966] Sending notification: NSConcreteNotification 0x7fb7ad543210 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "45766723-B224-438D-A0D3-F2676BCA63F6";
+}}
+18:08:03.095 Xcode[16458:1546287] testmanagerd handled session request.
+18:08:03.095 Xcode[16458:1496966] Waiting for test process to launch.
+18:08:07.666 Xcode[16458:1545989] 45766723-B224-438D-A0D3-F2676BCA63F6: Installed app at path: /Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator/FoodTracker.app and options: {
+    CFBundleIdentifier = "Kazu.FoodTracker";
+}
+18:08:07.667 Xcode[16458:1545989] 45766723-B224-438D-A0D3-F2676BCA63F6: Launching app with identifier: Kazu.FoodTracker and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+        "DYLD_FRAMEWORK_PATH" = "/Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator:/Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection";
+        "DYLD_LIBRARY_PATH" = "/Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator:/Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        XCInjectBundleInto = "/Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator/FoodTracker.app/FoodTracker";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/bb/7v3kw9n15g7_66zwnch0wfg00000gn/T/com.apple.dt.XCTest/DB358448-0EC6-434F-9F79-3FBD6D310A64/remote-container/tmp/FoodTrackerTests-DB358448-0EC6-434F-9F79-3FBD6D310A64.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys002";
+    stdout = "/dev/ttys002";
+    "wait_for_debugger" = 1;
+}
+18:08:07.708 Xcode[16458:1546061] 45766723-B224-438D-A0D3-F2676BCA63F6: Launched app with identifier: Kazu.FoodTracker (pid = 17312)
+18:08:07.709 Xcode[16458:1546061] Tracking pid 17312 for simulator <DVTiPhoneSimulator: 0x7fb7a786f3d0> {
+		SimDevice: SimDevice : iPhone 7 (45766723-B224-438D-A0D3-F2676BCA63F6) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7 } runtime={ SimRuntime : 10.2 (14C89) - com.apple.CoreSimulator.SimRuntime.iOS-10-2 }
+}
+18:08:07.709 Xcode[16458:1546061] Checking to see if pid 17312 is valid: kill(pid, 0) = 0 (YES, it's still running)
+18:08:07.709 Xcode[16458:1546061] Setting up DVTNotifyOnProcDeath for pid 17312
+18:08:07.709 Xcode[16458:1496966] Test process runnable PID is 17312.
+18:08:09.340 Xcode[16458:1496966] Launch session finished initial intensive file IO.
+18:08:09.340 Xcode[16458:1496966] Waiting for test process to check in..., will wait up to 120s
+18:08:09.768 Xcode[16458:1546085] Got proxy channel request from test bundle
+18:08:09.768 Xcode[16458:1546085] Test bundle is ready, running protocol 22, requires at least version 8. IDE is running 22 and requires at least 8
+18:08:09.768 Xcode[16458:1546061] Creating secondary transport and connection for whitelisting test process PID.
+18:08:09.768 Xcode[16458:1546061] 45766723-B224-438D-A0D3-F2676BCA63F6: Registered for sim device notification, got token 14
+18:08:09.768 Xcode[16458:1546061] 45766723-B224-438D-A0D3-F2676BCA63F6: Unregistering for sim device notification with token 14
+18:08:09.768 Xcode[16458:1546061] Sim iPhone 7 is booted (state = 3)
+18:08:09.768 Xcode[16458:1546061] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+18:08:09.769 Xcode[16458:1546061] Returning /private/tmp/com.apple.launchd.ErCwgeiUkT/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+18:08:09.769 Xcode[16458:1546061] Sim iPhone 7 has testmanagerd socket at /private/tmp/com.apple.launchd.ErCwgeiUkT/com.apple.testmanagerd.unix-domain.socket
+18:08:09.769 Xcode[16458:1546061] Connected socket 80 to testmanagerd for Sim iPhone 7
+18:08:09.769 Xcode[16458:1546061] Creating the daemon control connection.
+18:08:09.770 Xcode[16458:1546061] Resuming the secondary connection.
+18:08:09.770 Xcode[16458:1546061] Whitelisting test process ID 17312
+18:08:09.773 Xcode[16458:1546061] Got whitelisting response and daemon protocol version 22
+18:08:03.087 testmanagerd[17192:1546022] Launched testmanagerd from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/libexec/testmanagerd, built at Friday, December 2, 2016 at 6:36:48 AM Japan Standard Time
+18:08:03.090 testmanagerd[17192:1546022] Setting availability state.
+18:08:03.090 testmanagerd[17192:1546369] IDE connected over socket 5 (__47-[XCTestManagerIDEServer initWithListenSocket:]_block_invoke)
+18:08:03.091 testmanagerd[17192:1546369] Created session with socket 5
+18:08:03.091 testmanagerd[17192:1546022] Posting availability to test bundles...
+18:08:09.774 testmanagerd[17192:1546022] Received request to collect crash reports in directories '/Users/kazukisakurada/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'XCTRunner', 'FoodTracker', 'xctest'
+18:08:03.094 testmanagerd[17192:1546427] Handled a proxy request from the IDE with session <XCIDESession: 0x7ffc43a027d0> proxy <_DTXProxy: 0x7ffc43b00650>
+18:08:03.095 testmanagerd[17192:1546022] __84-[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke DB358448-0EC6-434F-9F79-3FBD6D310A64 1 5 from client 1FE0124A-B548-479C-805D-02AC04737D6F-16458-00004991B913B386 (/Applications/Xcode.app)
+18:08:03.095 testmanagerd[17192:1546427] __45-[XCTestManager setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7ffc43a027d0> -> DB358448-0EC6-434F-9F79-3FBD6D310A64
+18:08:03.095 testmanagerd[17192:1546427] -[XCTestManager _handleRequestForSessionWithIdentifier:]
+18:08:09.775 testmanagerd[17192:1546022] Initializing crash report observer for /Users/kazukisakurada/Library/Logs/DiagnosticReports
+18:08:08.190 testmanagerd[17192:1546022] Considering exiting, 0 test sessions, 1 sessions with identifiers, 0 unidentified sessions, does not have control session...
+18:08:09.633 testmanagerd[17192:1546369] Received new test session connection (-[XCTestManager listener:shouldAcceptNewConnection:])
+18:08:09.775 testmanagerd[17192:1546022] Getting files in /Users/kazukisakurada/Library/Logs/DiagnosticReports
+18:08:09.634 testmanagerd[17192:1546022] Initial orientation 0
+18:08:09.637 testmanagerd[17192:1546555] app info {
+    BKSApplicationStateAppIsFrontmost = 1;
+    BKSApplicationStateExtensionKey = 0;
+    SBApplicationStateDisplayIDKey = "Kazu.FoodTracker";
+    SBApplicationStateKey = 8;
+    SBApplicationStateProcessIDKey = 17312;
+    SBMostElevatedStateForProcessID = 8;
+}
+18:08:09.637 testmanagerd[17192:1546369] Test session DB358448-0EC6-434F-9F79-3FBD6D310A64 requested socket (-[XCTestSession _XCT_requestSocketForSessionIdentifier:reply:])
+18:08:09.638 testmanagerd[17192:1546555] Got request for process assertion for pid 17312.
+18:08:09.638 testmanagerd[17192:1546425] Test session DB358448-0EC6-434F-9F79-3FBD6D310A64 requested socket (__57-[XCTestManager requestSocketForSessionIdentifier:reply:]_block_invoke)
+18:08:09.638 testmanagerd[17192:1546425] -[XCTestManager _handleRequestForSessionWithIdentifier:]
+18:08:09.638 testmanagerd[17192:1546425] Closing IDE connection before sending socket 7 to test host.
+18:08:09.638 testmanagerd[17192:1546555] Created process assertion for pid 17312: <BKSProcessAssertion: 0x7ffc41e0a9d0>, waiting for response from assertiond.
+18:08:09.639 testmanagerd[17192:1546425] -[XCIDESession closeIDEConnection:] sending barrier
+18:08:09.777 testmanagerd[17192:1546022] Found 27 files in /Users/kazukisakurada/Library/Logs/DiagnosticReports
+18:08:09.639 testmanagerd[17192:1546555] Starting to monitor Kazu.FoodTracker
+18:08:09.639 testmanagerd[17192:1546022] barrier flushed, closing DTXConnection to IDE, socket will not be closed
+18:08:09.778 testmanagerd[17192:1546022] Started monitoring /Users/kazukisakurada/Library/Logs/DiagnosticReports
+18:08:09.640 testmanagerd[17192:1546556] DTXSocketTransport disconnected
+18:08:09.640 testmanagerd[17192:1546426] Got application state update: Kazu.FoodTracker (17312) -> 8
+18:08:09.640 testmanagerd[17192:1546425] Got reply for process assertion request, success: YES
+18:08:09.640 testmanagerd[17192:1546556] __33-[XCTestManager closeIDESession:]_block_invoke <XCIDESession: 0x7ffc43a027d0>
+18:08:09.779 testmanagerd[17192:1546022] Initializing crash report observer for /Library/Logs/DiagnosticReports
+18:08:09.640 testmanagerd[17192:1546556] Considering exiting, 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control session...
+18:08:09.765 testmanagerd[17192:1546022] Sending socket 7 to test host
+18:08:09.780 testmanagerd[17192:1546022] Getting files in /Library/Logs/DiagnosticReports
+18:08:09.765 testmanagerd[17192:1546556] __33-[XCTestManager closeIDESession:]_block_invoke <XCIDESession: 0x7ffc43a027d0>
+18:08:09.766 testmanagerd[17192:1546556] Considering exiting, 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control session...
+18:08:09.769 testmanagerd[17192:1546556] IDE connected over socket 6 (__47-[XCTestManagerIDEServer initWithListenSocket:]_block_invoke)
+18:08:09.770 testmanagerd[17192:1546556] Created session with socket 6
+18:08:09.771 testmanagerd[17192:1546426] Handled a proxy request from the IDE with session <XCIDESession: 0x7ffc41d16750> proxy <_DTXProxy: 0x7ffc41e0c120>
+18:08:09.772 testmanagerd[17192:1546426] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 17312 22
+18:08:09.772 testmanagerd[17192:1546022] Set control session <XCIDESession: 0x7ffc41d16750> with proto 22 and proxy <_DTXProxy: 0x7ffc41e0c120>
+18:08:09.785 testmanagerd[17192:1546022] Found 139 files in /Library/Logs/DiagnosticReports
+18:08:09.786 testmanagerd[17192:1546022] Started monitoring /Library/Logs/DiagnosticReports
+18:08:09.620 FoodTracker[17312:1546478] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built at Friday, December 16, 2016 at 7:52:27 AM Japan Standard Time
+18:08:09.622 FoodTracker[17312:1546478] System uptime: 22:35:55
+18:08:09.622 FoodTracker[17312:1546478] Process arguments: (
+    "/Users/kazukisakurada/Library/Developer/CoreSimulator/Devices/45766723-B224-438D-A0D3-F2676BCA63F6/data/Containers/Bundle/Application/157A3AC0-3905-4799-A0A1-C7EA6C4F5F07/FoodTracker.app/FoodTracker",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+18:08:09.622 FoodTracker[17312:1546478] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/kazukisakurada/Library/Developer/CoreSimulator/Devices/45766723-B224-438D-A0D3-F2676BCA63F6/data/Containers/Data/Application/C5F1B21B-075F-4CB4-8435-A097AEE41E93";
+    CLASSIC = 0;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.4FKNvO8ZUm/Listeners";
+    "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator:/Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+    "DYLD_INSERT_LIBRARIES" = "";
+    "DYLD_LIBRARY_PATH" = "/Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator:/Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "DYLD_SHARED_REGION" = avoid;
+    HOME = "/Users/kazukisakurada/Library/Developer/CoreSimulator/Devices/45766723-B224-438D-A0D3-F2676BCA63F6/data/Containers/Data/Application/C5F1B21B-075F-4CB4-8435-A097AEE41E93";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.45766723-B224-438D-A0D3-F2676BCA63F6.launchd_sim/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/kazukisakurada/Library/Developer/CoreSimulator/Devices/45766723-B224-438D-A0D3-F2676BCA63F6/data";
+    "IPHONE_SIMULATOR_CLASS" = D10;
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/kazukisakurada/Library/Developer/CoreSimulator/Devices/45766723-B224-438D-A0D3-F2676BCA63F6/data/Library/Application Support/Simulator/extended_display.plist";
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/local/bin";
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 7.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 7";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/kazukisakurada/Library/Developer/CoreSimulator/Devices/45766723-B224-438D-A0D3-F2676BCA63F6/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HOST_HOME" = "/Users/kazukisakurada";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/kazukisakurada/Library/Logs/CoreSimulator/45766723-B224-438D-A0D3-F2676BCA63F6";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 1334;
+    "SIMULATOR_MAINSCREEN_PITCH" = "326.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "2.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 750;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/kazukisakurada/Library/Developer/CoreSimulator/Devices/45766723-B224-438D-A0D3-F2676BCA63F6/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone9,1";
+    "SIMULATOR_PLATFORM_RUNTIME_OVERLAY_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/RuntimeOverlay";
+    "SIMULATOR_PRODUCT_CLASS" = D10;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 14C89;
+    "SIMULATOR_RUNTIME_VERSION" = "10.2";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/kazukisakurada/Library/Developer/CoreSimulator/Devices/45766723-B224-438D-A0D3-F2676BCA63F6/data";
+    "SIMULATOR_UDID" = "45766723-B224-438D-A0D3-F2676BCA63F6";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 338.16 - Device: iPhone 7 - Runtime: iOS 10.2 (14C89) - DeviceType: iPhone 7";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.ErCwgeiUkT/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/kazukisakurada/Library/Developer/CoreSimulator/Devices/45766723-B224-438D-A0D3-F2676BCA63F6/data/Containers/Data/Application/C5F1B21B-075F-4CB4-8435-A097AEE41E93/tmp";
+    XCInjectBundleInto = "/Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator/FoodTracker.app/FoodTracker";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/bb/7v3kw9n15g7_66zwnch0wfg00000gn/T/com.apple.dt.XCTest/DB358448-0EC6-434F-9F79-3FBD6D310A64/remote-container/tmp/FoodTrackerTests-DB358448-0EC6-434F-9F79-3FBD6D310A64.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:Kazu.FoodTracker[0x8b65]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.45766723-B224-438D-A0D3-F2676BCA63F6.launchd_sim";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/kazukisakurada/Programming/iOS/FoodTracker/DerivedData/FoodTracker/Build/Products/Debug-iphonesimulator";
+}
+18:08:09.623 FoodTracker[17312:1546478] Loading DTXConnectionServices from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework
+18:08:09.631 FoodTracker[17312:1546478] Session ID DB358448-0EC6-434F-9F79-3FBD6D310A64
+18:08:09.631 FoodTracker[17312:1546478] Registering for testmanagerd availability notify post.
+18:08:09.631 FoodTracker[17312:1546478] testmanagerd availability confirmed via notify_get_state.
+18:08:09.631 FoodTracker[17312:1546478] Initiating connection to testmanagerd to request socket for IDE connection.
+18:08:09.632 FoodTracker[17312:1546478] Requesting socket
+18:08:09.637 FoodTracker[17312:1546544] Got daemon protocol version 6
+18:08:09.766 FoodTracker[17312:1546544] Got socket 7 from daemon, making connection to IDE
+18:08:09.766 FoodTracker[17312:1546544] Creating connection with transport
+18:08:09.767 FoodTracker[17312:1546544] Resuming connection
+18:08:09.767 FoodTracker[17312:1546544] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+18:08:09.792 FoodTracker[17312:1546478] -[XCTestDriver _runSuite]
+18:08:09.793 Xcode[16458:1496966] Starting test plan, clearing initialization timeout timer.
+18:08:09.793 FoodTracker[17312:1546478] Loading test suite...
+18:08:09.833 FoodTracker[17312:1546478] Finished loading test suite, took 0.040s
+18:08:09.834 FoodTracker[17312:1546478] -[_XCTestDriverTestObserver testBundleWillStart:]
+18:08:09.834 FoodTracker[17312:1546478] Running suite...
+18:08:09.835 FoodTracker[17312:1546478] -[_XCTestDriverTestObserver testSuiteWillStart:]
+Test Suite 'All tests' started at 2017-10-05 18:08:09.834
+18:08:09.836 Xcode[16458:1546061] (LOG ARBITER) Rotating message buffer with 2 messages.
+18:08:09.842 Xcode[16458:1545803] (LOG ARBITER) Dumping buffered message data; 2 messages.
+18:08:09.856 Xcode[16458:1546085] (LOG ARBITER) Dumping buffered message data; 0 messages.
+Test Suite 'FoodTrackerTests.xctest' started at 2017-10-05 18:08:09.836
+18:08:09.836 Xcode[16458:1496966] _XCT_testSuite:FoodTrackerTests.xctest didStartAt:2017-10-05 09:08:09 +0000
+18:08:09.836 FoodTracker[17312:1546478] -[_XCTestDriverTestObserver testSuiteWillStart:]
+18:08:09.837 Xcode[16458:1496966] _XCT_testSuite:FoodTrackerTests didStartAt:2017-10-05 09:08:09 +0000
+Test Suite 'FoodTrackerTests' started at 2017-10-05 18:08:09.836
+18:08:09.837 FoodTracker[17312:1546478] -[_XCTestDriverTestObserver testCaseWillStart:] FoodTrackerTests.FoodTrackerTests testMealInitializationFails
+Test Case '-[FoodTrackerTests.FoodTrackerTests testMealInitializationFails]' started.
+18:08:09.837 Xcode[16458:1496966] _XCT_testCaseDidStartForTestClass:FoodTrackerTests.FoodTrackerTests method:testMealInitializationFails
+Test Case '-[FoodTrackerTests.FoodTrackerTests testMealInitializationFails]' passed (0.004 seconds).
+18:08:09.841 FoodTracker[17312:1546478] -[_XCTestDriverTestObserver testCaseDidFinish:]
+18:08:09.842 Xcode[16458:1496966] _XCT_testCaseDidFinishForTestClass:FoodTrackerTests.FoodTrackerTests method:testMealInitializationFails withStatus:passed duration:0.003986954689025879
+18:08:09.842 FoodTracker[17312:1546478] -[_XCTestDriverTestObserver testCaseWillStart:] FoodTrackerTests.FoodTrackerTests testMealInitializationSucceeds
+18:08:09.843 Xcode[16458:1496966] _XCT_testCaseDidStartForTestClass:FoodTrackerTests.FoodTrackerTests method:testMealInitializationSucceeds
+Test Case '-[FoodTrackerTests.FoodTrackerTests testMealInitializationSucceeds]' started.
+Test Case '-[FoodTrackerTests.FoodTrackerTests testMealInitializationSucceeds]' passed (0.007 seconds).
+Test Suite 'FoodTrackerTests' passed at 2017-10-05 18:08:09.849.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.011 (0.013) seconds
+Test Suite 'FoodTrackerTests.xctest' passed at 2017-10-05 18:08:09.850.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.011 (0.014) seconds
+Test Suite 'All tests' passed at 2017-10-05 18:08:09.850.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.011 (0.016) seconds
+18:08:09.849 FoodTracker[17312:1546478] -[_XCTestDriverTestObserver testCaseDidFinish:]
+18:08:09.856 Xcode[16458:1496966] _XCT_testCaseDidFinishForTestClass:FoodTrackerTests.FoodTrackerTests method:testMealInitializationSucceeds withStatus:passed duration:0.007153987884521484
+18:08:09.850 FoodTracker[17312:1546478] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+18:08:09.857 Xcode[16458:1496966] _XCT_testSuite:FoodTrackerTests didFinishAt:2017-10-05 09:08:09 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.01114094257354736 totalDuration:0.01324695348739624
+18:08:09.850 FoodTracker[17312:1546478] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+18:08:09.857 Xcode[16458:1496966] _XCT_testSuite:FoodTrackerTests.xctest didFinishAt:2017-10-05 09:08:09 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.01114094257354736 totalDuration:0.01421099901199341
+18:08:09.850 FoodTracker[17312:1546478] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+18:08:09.857 Xcode[16458:1496966] _XCT_testSuite:All tests didFinishAt:2017-10-05 09:08:09 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.01114094257354736 totalDuration:0.01608794927597046
+18:08:09.851 FoodTracker[17312:1546478] Finished running suite.
+18:08:09.851 FoodTracker[17312:1546478] -[_XCTestDriverTestObserver testBundleDidFinish:], Flushing connection to IDE...
+18:08:09.857 Xcode[16458:1496966] -[IDETestOperationCoordinator _XCT_didFinishExecutingTestPlan]
+18:08:09.857 Xcode[16458:1496966] _finishWithError:(null) didCancel: 0
